@@ -45,7 +45,6 @@ export const getNotes = (req, res) => {
     data: {
       notes,
     },
-<<<<<<< HEAD
   });
 };
 
@@ -99,8 +98,6 @@ export const deleteNoteById = (req, res) => {
   return res.status(404).json({
     status: 'fail',
     message: 'Catatan gagal dihapus. Id tidak ditemukan'
-=======
->>>>>>> 9468721a716640b72966cbaa3532bcbf1ffd2fd1
   });
 };
 
